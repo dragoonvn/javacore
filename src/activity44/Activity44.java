@@ -69,7 +69,7 @@ public class Activity44 {
         //In ra vị trí và giá trị của phần tử lớn thứ 2 trong mảng
         System.out.print("\n3. In ra vị trí và giá trị của phần tử lớn thứ 2 trong mảng");
         int c, k;
-        //xoa phan tu lon nhat trong bang tam lay ra gia tri
+            //xoa phan tu lon nhat trong bang tam lay ra gia tri
         for (c = k = 0; k < a; k++) {
             if (arrTam[k] != max) {
                 arrTam[c] = arrTam[k];
@@ -84,7 +84,7 @@ public class Activity44 {
                 max2 = arrTam[i];
             }
         }
-        //lay vi tri gia tri lon thu 2 o mang goc
+             //lay vi tri gia tri lon thu 2 o mang goc
         for (i = 1; i < a; i++) {
             if (arr[i] == max2) {
                 location3 = i;
@@ -94,7 +94,7 @@ public class Activity44 {
         //In ra vị trí và giá trị của phần tử nhỏ thứ 2 trong mản
         System.out.print("\n4. In ra vị trí và giá trị của phần tử nhỏ thứ 2 trong mảng");
         int c1, k1;
-        //xoa phan tu lon nhat trong bang tam lay ra gia tri
+            //xoa phan tu lon nhat trong bang tam lay ra gia tri
         for (c1 = k1 = 0; k1 < a; k1++) {
             if (arrTam1[k1] != min) {
                 arrTam1[c1] = arrTam1[k1];
@@ -109,7 +109,7 @@ public class Activity44 {
                 min2 = arrTam1[i];
             }
         }
-        //lay vi tri gia tri lon thu 2 o mang goc
+            //lay vi tri gia tri lon thu 2 o mang goc
         for (i = 1; i < a; i++) {
             if (arr[i] == min2) {
                 location4 = i;
